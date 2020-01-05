@@ -11,7 +11,7 @@ class SwapCharTddTest {
 	
 	@Test
 	void swapLast2With4Char() {
-		assertEquals("ABDC", SwapCharTdd.last2char("ABCD"));
+		assertEquals("DC", SwapCharTdd.last2char("ABCD"));
 	}
 	
 	@Test
