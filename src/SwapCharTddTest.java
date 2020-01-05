@@ -10,8 +10,18 @@ class SwapCharTddTest {
 	}
 	
 	@Test
-	void swapLast4() {
+	void swapLast2With4Char() {
+		assertEquals("ABDC", SwapCharTdd.last2char("ABCD"));
+	}
+	
+	@Test
+	void swapLast2With1Char() {
 		assertEquals("DC", SwapCharTdd.last2char("ABCD"));
+	}
+	
+	@Test
+	void swapLast2WithAndReturnWholeString() {
+		assertEquals("ABDC", SwapCharTdd.last2char("ABCD"));
 	}
 	
 }
