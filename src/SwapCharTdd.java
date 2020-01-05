@@ -8,9 +8,12 @@ public class SwapCharTdd {
 
 	public static String last2char(String str) {
 		// TODO Auto-generated method stub
-		int strlength = str.length();
 		
+		int strLength = str.length();
 		
+		char second2LastOne = str.charAt(strLength - 2);
+		char lastOne = str.charAt(strLength - 1);
+		
+		return "" + lastOne + second2LastOne;
 	}
-
 }

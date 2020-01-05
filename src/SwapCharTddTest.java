@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 class SwapCharTddTest {
 
 	@Test
-	void swapLast2(){
-		
-			assertEquals("", SwapCharTdd.last2char(""));
-		}
+	void swapLast2() {
+		assertEquals("AB", SwapCharTdd.last2char("BA"));
 	}
-
-
+}
